@@ -1,0 +1,34 @@
+body {
+	background-color: #AEC6CF;
+}
+
+h1 {
+	background-color: ##F0FFFF;
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 50px;
+	text-shadow: 1px 1px 1px gray;
+}
+
+p{
+	padding: 10px;
+	width: 75%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+p:first-letter {
+	font-size: 30px;
+}
+
+li:first-letter {
+	color: orange;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: orange;
+	color: yellow;
+}

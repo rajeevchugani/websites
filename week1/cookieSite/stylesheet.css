@@ -1,0 +1,40 @@
+html {
+	border: 5px solid black;
+}
+body {
+	background-color: #FFE;
+}
+
+h1 {
+	border-bottom: dotted;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+img {
+	border: 5px solid black;
+}
+
+a {
+	color: #900;
+	font-family: 'Varela Round', sans-serif;
+}
+
+p {
+	font-family: 'Varela Round', sans-serif;
+}
+
+li {
+	font-family: 'Varela Round', sans-serif;
+}
+
+p.nutrition {
+	color: #887;
+	font-size: 20px;
+	font-weight: bold;
+}
