@@ -1,0 +1,62 @@
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+/* add styles to <h1>: a red background, some padding, and a black border.*/
+h1 {
+	background-color: red;
+	padding: 10px;
+	line-height: 6px;
+	border: 3px solid black;
+}
+
+/*add styles t <p>: blue background, white text, some padding, and a black border.*/
+p {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: 3px dotted black;
+}
+
+/*add styles to <code>: element a white background, black text, a little padding, and a thin border.*/
+code {
+	background-color; white;
+	color: black;
+	padding: 3px;
+	border: 1px solid black;
+	line-height: 3px;
+}
+
+h2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: purple;
+	font-size: 20px;
+}
+
+ol{
+	border: 1px dashed black;
+}
+
+li{
+margin: 25px;
+}
+
+.outer_box{
+	width:600px;
+	background-color: yellow;
+	border:1px solid red;
+	display: inline-block; /*stops the outer_box collapsing*/
+}
+
+.inner_box{
+	float: left; /*tags will float up and then left - if they can!*/
+	width:300px;
+	color:beige; /*font color*/
+	background-color: green; /* background color*/
+	margin:20px;
+	border: 20px dashed blue;
+	padding:20px;
+}
+
+.resources{clear:both;}

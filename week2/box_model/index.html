@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Box Model</title>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+
+<body>
+
+	<h1>Box Model</h1>
+	<p>Every element on the page has its own box, which can be styled using CSS.</p>
+	<p>From the inside out:</p>
+	<ol>
+		<li>content</li>
+		<li>padding</li>
+		<li>border</li>
+		<li>margin</li>
+	</ol>
+
+	<h2>Background</h2>
+	<p>Background of contents will cover the content, the padding and the gaps (if any) in the border.</p>
+	<p>Margin is transparent, so will show the background of the containing tag</p>
+
+	<h2>Code-along:</h2>
+	<ol>
+		<li>Give the <code>h1</code> a red background, some padding, and a black border.</li>
+		<li>Give every <code>p</code> a blue background, white text, some padding, and a black border.</li>
+		<li>Give every <code>code</code> element a white background, black text, a little padding, and a thin border.</li>
+	</ol>
+
+	<h2>Now You Try</h2>
+	<ol>
+		<li>Try adding styles for the <code>h2</code>, <code>ol</code>, and <code>li</code> tags on this page.</li>
+		<li>Look into the syntax for <code>margin</code> and try adding more space around elements by using them.</li>
+		<li> as an experiment, add padding:25px to li. this will give 25px gap top and bottom to each li element, so 50px between each. Delete padding and change it to margin:25px. What happens and why?</li>
+		<li>Advanced challenge: below is a general-purpose &lt;div&gt; tag, width 600px. It contains two inner boxes each 300px. The inner_boxes float next to each other in the same line. Now add these styles to the inner_box: 
+			<ul>
+				<li>margin: 20px;</li>
+				<li>	border: 20px dashed blue; </li>
+				<li>	padding: 20px;</li>
+			</ul>
+			The boxes no longer float next to each other! What do you have to reduce the 300px width by to get them back on the same line? Now set the width back to 300px. What do you have to increase the 600px out_box width by to get them on the same line? Does the 1px red border of the outer_box need to be accounted for?</li>
+		</ol>
+
+		<div class="outer_box">
+
+			<div class="inner_box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis libero labore fugiat quidem provident debitis tempora quam animi dolorum vitae!
+			</div>
+
+			<div class="inner_box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aliquam voluptatem iusto asperiores praesentium laborum? Quaerat reprehenderit, autem pariatur placeat?
+			</div>
+
+		</div>
+
+		<h2 class="resources">Resources</h2>
+		<ul>
+			<li><a href="http://www.w3schools.com/css/css_margin.asp">css margin and sandpit</a></li>
+			<li><a href="http://www.w3schools.com/css/css_padding.asp">css padding and sandpit</a></li>
+			<li><a href="http://www.w3schools.com/css/css_border.asp">css border and sandpit</a></li>
+			<li><a href="https://developer.mozilla.org/en/docs/Web/CSS/margin_collapsing">Margins collapsing</a></li>
+		</ul>
+	</body>
+	</html>
