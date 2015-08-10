@@ -1,0 +1,30 @@
+html{
+	font-family:'Open Sans', sans-serif;
+}
+
+header {
+	background-image: url("../images/header_bg.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+
+	font-weight: 800;
+	font-size: 24px;
+	color: white;
+}
+
+.head {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+
+.now {
+	font-weight: 800;
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: #f9e42e;
+}
