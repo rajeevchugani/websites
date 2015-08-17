@@ -1,0 +1,65 @@
+/*setup*/
+
+html{
+	background: white;
+}
+
+body{
+	background:gray;
+	width:80%;
+	margin: 0 auto;
+}
+
+div, footer, img {
+	background: lightgray; /* used for development - delete before deploy! */
+	opacity: 0.8; /* used for development - delete before deploy! */
+	padding: 5px; /* used for development - delete before deploy! */
+	border:1px solid green; /* used for development - delete before deploy! */
+}
+
+span{
+	color:blue; /*used for example - delete before deploy*/
+	border: 1px solid blue; /*used for example - delete before deploy*/
+	font-weight: bold; /*used for example - delete before deploy*/
+}
+
+img{
+	float:right;
+}
+
+/*the bits we're interested in*/
+
+div{
+	float: left;
+	box-sizing: border-box;
+}
+
+#block1{
+	width: 20%;
+
+}
+
+#block2{
+	width: 50%;
+
+}
+
+#block3{
+	width: 30%;
+}
+
+footer{
+	clear:both;
+}
+
+/*
+handy things...
+
+float: left;
+box-sizing: border-box;
+display: inline-block;
+vertical-align: top;
+oveflow: auto;
+
+*/
+

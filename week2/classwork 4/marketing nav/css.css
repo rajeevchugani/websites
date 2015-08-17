@@ -1,0 +1,39 @@
+header {
+	background-color: orange;
+	border: 3px solid red;
+}
+
+#two_1 {
+	background-color: lightgreen;
+	border: 3px solid green;
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+
+}
+
+#two_2 {
+	background-color: pink;
+	border: 3px solid lightpink;
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.three {
+	clear:both;
+
+}
+
+#three_1 , #three_2 , #three_3 {
+	width: 33%;
+	box-sizing: border-box;
+	float: left;
+	border: 3px solid black;
+}
+
+footer {
+	background-color: lightblue;
+	border: 3px solid blue;
+	clear:both;
+}

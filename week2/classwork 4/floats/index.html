@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Page Layout</title>
+	<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+</head>
+<body>
+	<header>		
+		<h2>header</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero quidem sint, maxime iusto perspiciatis tenetur soluta, provident nisi libero ad harum aperiam eveniet, voluptates laudantium placeat facilis, quam voluptate.</p>		
+	</header>
+	<div class="wrapper">
+		<section>		
+			<h2>section content</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ratione necessitatibus sed magni eaque natus tempora atque labore perspiciatis, dolore culpa placeat non nam exercitationem quasi libero aut mollitia dolorem?</p>		
+		</section>
+
+		<aside>		
+			<h2>aside content</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, quod minus. Beatae quaerat fugit, voluptatum eum maiores, modi, placeat dolorum, tenetur aperiam accusamus provident ratione rem omnis ipsa a dolorem.</p>		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, quod minus. Beatae quaerat fugit, voluptatum eum maiores, modi, placeat dolorum, tenetur aperiam accusamus provident ratione rem omnis ipsa a dolorem.</p>		
+		</aside>
+	</div>
+	<footer>		
+		<h2>footer</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, eius distinctio, delectus, deserunt, nulla corporis temporibus provident officia a quas eum quibusdam perferendis cum velit inventore iste dolores minima labore?</p>	
+	</footer>
+
+	<div class="instructions">
+		<h2>Objective: to get the section and aside boxes next to each other.</h2>
+		<p>You are only going to alter styles for section, aside and footer.</p>
+		<ol>
+			<li>In style.css add float:right; to aside style</li>
+			<li>Won't fit! why not? both widths 55% and 40% add to 95%, should be enough room?!</li>
+			<li>	Add box-sizing:border-box; to section and aside</li>
+			<li>Still won't slide up!  Also the footer has gone weird!</li>
+			<li>Add float: left to section style</li>
+			<li>Section and aside are now inline, but footer is a mess. It needs to clear those floats</li>
+			<li>Add clear: left to the footer style</li>
+			<li>How do you change it to clear the right</li>
+			<li>what would you change it to to clear both?</li>
+		</ol>
+	</div>
+</body>
+</html>

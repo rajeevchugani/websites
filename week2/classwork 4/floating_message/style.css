@@ -1,0 +1,58 @@
+body{width:90%;margin:0 auto;}
+
+div{
+	width:35px;
+	height:35px;
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border:1px solid red;
+}
+
+.message{
+	width:100%;
+	border:0px;
+	padding:10px 0px;
+	background-color: lightgray;
+}
+
+.class1{
+	float: left;
+
+}
+.class2{
+	float:right;
+	
+}
+.class3{
+	float:right;
+}
+.class4{
+	float: left;
+}
+.class5{
+	float: left;
+	
+}
+.class6{
+	float:right;
+}
+.class7{
+	float: right;
+}
+.class8{
+	float: left;
+}
+.class9{
+	float: right;
+	
+}
+.class10{
+	float:right;
+	
+}
+.class11{
+	float:left;
+}

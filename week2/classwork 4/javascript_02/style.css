@@ -1,0 +1,11 @@
+button{
+	display: block; //puts the button on it's own line
+}
+
+#cat{
+	display:none;
+}
+
+#dog{
+	display:inline;
+}

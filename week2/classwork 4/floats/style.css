@@ -1,0 +1,38 @@
+header, section, aside, footer, .instructions{
+	padding: 20px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-size: 1.2em;
+}
+
+header {
+	background: pink;
+	border:10px solid darkred;
+}
+section {
+	background: yellow;
+	border: 10px solid black;
+	width: 55%; /*55% of body width*/
+	float:left;
+	box-sizing: border-box;
+}
+
+aside {
+	background: lightgreen;
+	border:10px solid darkgreen;
+	width: 40%; /*40% of body width*/
+	float: right;
+	box-sizing: border-box;	
+}
+
+footer {
+	background: lightblue;
+	border: 10px solid blue;
+	clear:both;
+}
+
+.instructions{
+	clear:both;
+	width: 100%;
+	border-top: 3px dotted gray;
+	margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+img{float:right;}
+
+body{
+	width: 80%;
+	margin: 0 auto;
+	background-color: lightgray;
+	padding:20px;
+}
+
+div, footer, img{ 
+	border: 1px solid green; /*debug only - delete before deploy!*/
+	background-color: white; /*debug only - delete before deploy!*/
+}
