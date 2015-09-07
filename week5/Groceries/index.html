@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Park 'n' Shop Groceries Checkout</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="till.js"></script>
+</head>
+<body>
+
+	<div class="title">
+		<h1>Park 'n' Shop</h1>
+		<img id="parknshop" src="img/parknshop.png">
+		<p id="quote">Your groceries, your body</p>
+	</div>
+</header>
+
+<div class="container">
+
+<div class="name">
+	<form>
+		<input type="text" id="firstname" autocomplete='off' placeholder="Enter First Name">
+		<input type="text" id="lastname" autocomplete='off' placeholder="Enter Last Name">
+	</form>
+</div>
+
+<div class="name">
+	<form>
+		<input type="text" id="newfood" autocomplete='off' placeholder="Enter a new food">
+		<input type="number" id="price" min="0" placeholder="Enter price">
+		<input type="submit" value="Add to list" id="new-btn">
+	</form>
+</div>
+
+<div id="dropdownList">
+	<form>
+		<select id="formList">
+		</select>
+		<input type="submit" value="Add" id="add-btn">
+	</form>
+</div>
+
+	<table id="listGroceries">
+		<tr>
+			<th class="item">Item added</th>
+			<th class="price">Price</th>
+		</tr>
+		<tbody id='itemList'>
+		</tbody>
+	</table>
+
+
+	<button id='delete'>Delete Last Entry</button>
+
+	<img id='award' src=''>
+
+	<p>Total ammount is $<span id='total'>0</span> </p>
+
+	<button class='print'>Print Reciept</button>
+	<button id='newCustomer'>New Customer</button>
+
+</div>
+
+</body>
+</html>
